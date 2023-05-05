@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Time Copier",
+  "version": "1.0",
+  "description": "YouTubeで再生中の動画の現在の再生時間をクリップボードにコピー",
+  "permissions": ["clipboardWrite", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
