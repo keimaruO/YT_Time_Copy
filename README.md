@@ -19,7 +19,8 @@ YT_Time_Copy は、YouTube の動画で現在の再生時間を簡単にクリ�
 
 ## ショートカットキーの変更
 
-ショートカットキーを変更するには、`content.js` の `copyShortcut` オブジェクトを編集します。例えば、`Ctrl` キーと `B` キーをショートカットにしたい場合、以下のように変更します。
+ショートカットキーを変更するには、`content.js` の `copyShortcut` オブジェクトを編集します。
+例えば、`Ctrl` キーと `B` キーをショートカットにしたい場合、以下のように変更します。
 
 ```javascript
 const copyShortcut = {
