@@ -1,6 +1,6 @@
 const copyShortcut = {
   ctrlKey: true,
-  key: 'b', // ←ここに割り当てたいショートカットキーを入力してください
+  key: 'z', // ←ここに割り当てたいショートカットキーを入力してください
 };
 
 function getCurrentTime() {
